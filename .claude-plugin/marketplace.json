@@ -27,5 +27,14 @@
         "./skills/org-dev-workflow"
       ]
     }
+    ,{
+      "name": "ai-daily",
+      "description": "每日AI新闻概览：精选24小时内AI领域重要资讯，生成中文摘要并展示在精美HTML页面中",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ai-daily"
+      ]
+    }
   ]
 }
