@@ -1,18 +1,31 @@
 {
-  "name": "org-claude-skills",
-  "description": "我的自定义 Claude Code Skills 插件市场",
-  "version": "1.0.0",
-  "author": "sixinyan515-sudo",
-  "skills": [
+  "name": "sixinyan515-sudo-org-claude-skills",
+  "owner": {
+    "name": "Sixinyan515-sudo",
+    "email": "sixinyan515@gmail.com"
+  },
+  "metadata": {
+    "description": "我的自定义 Claude Code Skills 插件市场",
+    "version": "1.0.0"
+  },
+  "plugins": [
     {
       "name": "org-document-skills",
-      "description": "文档处理相关技能：文档生成、格式化、转换等",
-      "path": "skills/org-document-skills"
+      "description": "文档处理技能套件：文档生成、格式化、转换等",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/org-document-skills"
+      ]
     },
     {
       "name": "org-dev-workflow",
-      "description": "开发工作流技能：代码审查、提交规范、项目管理等",
-      "path": "skills/org-dev-workflow"
+      "description": "开发工作流技能套件：代码审查、提交规范、项目管理等",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/org-dev-workflow"
+      ]
     }
   ]
 }
