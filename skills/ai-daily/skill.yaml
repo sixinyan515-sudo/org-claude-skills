@@ -1,9 +1,0 @@
-name: ai-daily
-description: 每日AI新闻概览 - 精选24小时内AI领域重要资讯，生成中文摘要并展示在精美HTML页面中
-triggers:
-  - /ai-daily
-  - "今日AI报告"
-  - "今日AI新闻"
-  - "AI日报"
-author: user
-version: 1.0.0
